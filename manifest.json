@@ -1,0 +1,25 @@
+{
+  "name": "Goodreads",
+  "version": "1",
+
+  "manifest_version": 2,
+
+  "description": "A bookmark app for Goodreads.",
+
+  "icons": {
+    "128": "128.png"
+  },
+
+  "app": {
+    "launch": {
+      "container": "tab",
+      "web_url": "http://www.goodreads.com/"
+    },
+    "web_content": {
+      "enabled": true,
+      "origin": "http://www.goodreads.com/"
+    }
+  },
+
+  "options_page": "http://www.goodreads.com/user/edit"
+}
